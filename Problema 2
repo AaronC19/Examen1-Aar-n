@@ -1,0 +1,34 @@
+Matriz1 =  [
+    [13, 2],
+    [34, 5]
+]
+print(Matriz1)
+
+
+
+matriz2 = [
+    [12, 4, 6 , 7],
+    [45, 13, 2, 78],
+    [98, 34, 5, 45 ],
+    [56, 77, 66, 88]
+
+    ]
+print(matriz2)
+
+
+if Matriz1 != matriz2:
+    print("La matriz 1 se encuentra almacenada en la matriz número 2 ")
+else:
+    print("La matriz 1 no se encuentra almacenada en la matriz 2")
+
+print(matriz2 + Matriz1)
+
+print("solo para agregar la matriz 1 junto con la 2")
+if  Matriz1 != matriz2:
+    print("La matriz 2 si contiene a la matriz 1")
+else:
+    print("La matriz 2 no contiene a la matriz 1")
+
+   
+
+     

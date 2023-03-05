@@ -1,0 +1,47 @@
+nombre = ""
+ciudad = ""
+estado = ""
+pais = ""
+website = ""
+
+def __init__(self, nombre, ciudad, estado, pais, website):
+    self.nombre = nombre
+    self.ciudad = ciudad
+    self.estado = estado
+    self.pais = pais
+    self.website = website
+
+
+def setNombre(self, nom):
+    self.nombre = nom
+
+
+def getNombre(self):
+    return self.nombre
+
+def setCiudad(self, Ciudad):
+    self.ciudad = Ciudad
+
+def getCiudad(self):
+    return self.ciudad
+
+def setEstado(self, Estado):
+    self.estado = Estado
+
+def getEstado(self):
+    return self.estado
+
+def setPais(self, Pais):
+    self.pais = Pais
+
+def getPais(self):
+    return self.pais
+
+def setWebsite(self, Web):
+    self.website = Web
+
+def getWebsite(self):
+    return self.website
+
+Editorial1 = "Alfaguara", "Madrid", "Madrid", "España", "www.alfaguara.com"
+Editorial2 = "Penguin Random House", "Nueva York", "Nueva York", "Estados Unidos", "www.penguinrandomhouse.com"

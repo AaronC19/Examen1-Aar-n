@@ -1,1 +1,56 @@
 # Examen1-Aar-n
+from ClsAutor import autor1, autor2, autor3, autor4, autor5
+
+
+
+_titulo = ""
+_autor = ""
+_editorial = ""
+_fecha_publicacion = ""
+_descripcion_contenido = ""
+
+
+def __init__(self, titulo, autor, editorial, fecha_publicacion, descripcion_contenido):
+    self.titulo = titulo
+    self.autor = autor
+    self.editorial = editorial
+    self.fecha_publicacion = fecha_publicacion
+    self.descripcion_contenido = descripcion_contenido
+
+
+
+    def setTitulo(self, titulo):
+        self._titulo = titulo
+
+    def getTitulo(self):
+        return self._titulo
+
+    def setAutor(self, aut):
+        self._autor = autor
+
+    def getAutor(self):
+        return self._autor
+
+    def setEditorial(self,editorial):
+        self._editorial = editorial
+
+    def getEditorial(self):
+        return self._editorial
+
+    def setFecha_publicacion(self,FechPub):
+        self.fecha_publicacion = FechPub
+
+    def getFecha_publicacion(self):
+        return self.fecha_publicacion
+
+    def setDescripcion_contenido(self,DesCont ):
+        self.descripcion_contenido = DesCont
+
+    def getDescripcion_contenido(self):
+        return self.descripcion_contenido
+
+libro1 = "Cien años de soledad", "Nombre del autor " , autor1 , "Fecha de lanzamiento: Mayo/1967" ,"Novela que narra la historia de la familia Buendía a lo largo de varias generaciones."
+libro2 = "Rayuela"," Fecha de lanzamiento: Junio/1963","Nombre del autor" , autor2 ,  "Novela que presenta una estructura no lineal y en la que el lector puede elegir su propio recorrido."
+libro3 = "La ciudad y los perros", "Nombre del autor", autor3, " Fecha de lanzamiento: Enero 1997" , "Novela que narra una historia en la que los perros forman una parte muy importante en el día a día de las personas"
+libro4  =  "A travès de el espejo"," Fecha de lanzamiento: Junio/1989","Nombre del autor" , autor4 ,  "Este libro trata sobre una pareja que solo se podìa conocer por miradas a travès de un cristal"
+libro5 =  "noches de insomnio"," Fecha de lanzamiento: Abril/1952","Nombre del autor" , autor5 ,  "Este libro trata sobre un hombre que solìa aprovechar su insomnio para crear asombrosas ideas"

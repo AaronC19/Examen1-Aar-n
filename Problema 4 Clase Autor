@@ -1,0 +1,40 @@
+_nombre = ""
+_apellido = ""
+_nacionalidad = ""
+
+
+def __init__(self, nombre, apellido, nacionalidad):
+    self.nombre = nombre
+    self.apellido = apellido
+    self.nacionalidad = nacionalidad
+
+
+def setNombre(self, nom):
+    self._nombre = nom
+
+
+def getNombre(self):
+   return self._nombre
+
+
+def setApellido(self, ape):
+    self._apellido = ape
+
+
+def getApellido(self):
+   return self._apellido
+
+
+def setNacionalidad(self, nacionalidad):
+    self._nacionalidad = _nacionalidad
+
+
+def getNacionalidad(self):
+   return  self._nacionalidad
+
+
+autor1 = "Gabriel", "García Márquez", "Colombiano"
+autor2 = "Julio", "Cortázar", "Argentino"
+autor3 = "Mario", "Vargas Llosa", "Peruano"
+autor4 = "Isabel", "Allende", "Chilena"
+autor5 = "Alfaguara", "Reyes", "Español"

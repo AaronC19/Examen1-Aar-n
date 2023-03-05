@@ -1,0 +1,61 @@
+from ClsAutor import autor1, autor2, autor3, autor4, autor5
+from ClsEditorial import Editorial1, Editorial2
+from ClsLibro import libro1, libro2, libro3
+
+username = input("Dijite su nombre")
+userlastname = input("Dijite su apellido")
+
+print("Bienvenido a la biblioteca")
+opc = int(input("Si es estudiante dijite 1, y si es profesor dijite 2"))
+
+if opc == 1:
+    print("usted es estudiante")
+else:
+    print("uste es profesor")
+
+opclibro = int(input(
+    f"Bienvenido  {username} {userlastname}  Dijite el libro que desea, 1. Cien años de soledad 2. Rayuela 3.  La ciudad y los perros"))
+
+if (opclibro) == 1:
+    print("Usted eligio el libro 1 y sus caracteristicas son las siguientes: ", libro1)
+else:
+    if (opclibro == 2):
+        print("Usted eligio el libro 2 y sus caracteristicas son las siguientes: ", libro2)
+    else:
+        if (opclibro == 3):
+            print("Usted eligio el libro 3 y sus caracteristicas son las siguientes: ", libro3)
+
+
+
+print(f" Listo {username} {userlastname}", " Que disfrute el libro ")
+
+print("Bienvenido a la biblioteca persona 2")
+
+username2 = input("Dijite su nombre")
+userlastname2 = input("Dijite su apellido")
+
+opc2 = int(input("Si es estudiante dijite 1, y si es profesor dijite 2"))
+
+if opc2 == 1:
+    print("usted es estudiante")
+else:
+    print("usted es profesor")
+
+opclibro2 = int(input(
+    f"Bienvenido  {username2} {userlastname2}  Dijite el libro que desea, 1. Cien años de soledad 2. Rayuela 3.  La ciudad y los perros"))
+
+
+if username2.lower() == username.lower() and userlastname2.lower() ==  userlastname.lower()  and opclibro2 == opclibro and opc2 == opc:
+    print(f" {username2} {userlastname2} Ya tienes este libro en tu biblioteca. Devuelve el libro antes de tomar otro.")
+else:
+    if (opclibro2) == 1:
+        print("Usted eligio el libro 1 y sus caracteristicas son las siguientes: ", libro1)
+    else:
+        if (opclibro2 == 2):
+            print("Usted eligio el libro 2 y sus caracteristicas son las siguientes: ", libro2)
+        else:
+            if (opclibro2 == 3):
+                print("Usted eligio el libro 3 y sus caracteristicas son las siguientes: ", libro3)
+
+print("Gracias por utilizar nuestra biblioteca")
+

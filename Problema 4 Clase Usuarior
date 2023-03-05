@@ -1,0 +1,59 @@
+identificacion = ""
+nombre_completo = ""
+tipo = ""
+
+
+
+
+def __init__(self, identificacion, nombre_completo, tipo):
+    self.identificacion = identificacion
+    self.nombre_completo = nombre_completo
+    self.tipo = tipo
+    self.biblioteca = []
+    self.playlist = {}
+
+
+
+
+def setIdentificacion(self, identificacion):
+    self.identificacion = identificacion
+
+def getIdentificacion(self):
+    return self.identificacion
+
+def setNombre_Completo(self, NomComp):
+    self.nombre_completo = NomComp
+
+def getNombre_Completo(self):
+    return self.nombre_completo
+
+def setTipo(self, tipo):
+    self.tipo = tipo
+
+def getTipo(self):
+    return self.tipo
+
+
+def agregar_a_biblioteca(self, libro):
+    if len(self.biblioteca) == 1:
+        print("Ya tienes un libro en tu biblioteca. Devuelve el libro antes de tomar otro.")
+    else:
+        self.biblioteca.append(libro)
+
+
+
+
+def crear_playlist(self, tema):
+    self.playlist[tema] = []
+
+
+
+
+def agregar_a_playlist(self, tema, libro):
+    self.playlist[tema].append(libro)
+
+
+
+
+def agregar_anotacion_a_libro(self, libro, anotacion):
+    libro.agregar_anotacion(anotacion)
